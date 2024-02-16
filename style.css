@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-main{
+    margin: 5rem auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    margin-bottom: 2rem;
+}
+
+.cronometro{
+    color: red;
+    margin-bottom: 1rem ;
+}
+
+.botao{
+    padding: 0.5em 0.25em;
+    border-radius: 10px;
+}
+
+.btn-mudar-frase{
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.container-main__textarea{
+    min-width: 300px;
+}
+
+.btn-enviar{
+    width: 20%;
+    margin: 1rem auto;
+    color: white;
+    background: blue;
+}
+
+.resultado{
+    margin: 0.5rem 0;
+}
+
+.acertou{
+    color: green;
+    border: 3px solid green;
+}
+
+.errou{
+    color: red;
+    border: 3 px solid red;
+}
